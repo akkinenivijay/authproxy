@@ -2,3 +2,14 @@ logging.level:
   org.springframework.security: TRACE
 server:
   port : 8081
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          authproxy:
+            signing.credentials:
+              - private-key-location: classpath:credentials/authproxy-server-key-8.pem
+                certificate-location: classpath:credentials/authproxy-server.pem
+            assertingparty:
+              metadata-uri: https://dev-05937739.okta.com/app/exk46xofd8NZvFCpS5d7/sso/saml/metadata
