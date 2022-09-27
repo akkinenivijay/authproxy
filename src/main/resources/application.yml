@@ -12,4 +12,6 @@ spring:
               - private-key-location: classpath:credentials/authproxy-server-key-8.pem
                 certificate-location: classpath:credentials/authproxy-server.pem
             assertingparty:
-              metadata-uri: https://dev-05937739.okta.com/app/exk46xofd8NZvFCpS5d7/sso/saml/metadata
+              metadata-uri: http://localhost:8080/realms/paychex/protocol/saml/descriptor
+              verification.credentials:
+                - certificate-location: "classpath:credentials/authproxy-server.pem"

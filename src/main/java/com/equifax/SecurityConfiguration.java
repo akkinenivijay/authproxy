@@ -15,6 +15,8 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 
+
+// http://localhost:8080/authadapter/employee
 /**
  * @author vijayakkineni
  */
@@ -27,14 +29,13 @@ public class SecurityConfiguration {
   @Bean
   SecurityFilterChain app(HttpSecurity http) throws Exception {
 
+    //Service Provider Registration
     RelyingPartyRegistrationResolver relyingPartyRegistrationResolver =
             new DefaultRelyingPartyRegistrationResolver(this.relyingPartyRegistrationRepository);
 
     Saml2MetadataFilter filter = new Saml2MetadataFilter(
             relyingPartyRegistrationResolver,
             new OpenSamlMetadataResolver());
-
-    filter.setRequestMatcher(new AntPathRequestMatcher("/saml2/metadata/{registrationId}", "GET"));
 
     http.authorizeHttpRequests(authorize -> authorize.anyRequest().authenticated())
             .saml2Login(withDefaults())
