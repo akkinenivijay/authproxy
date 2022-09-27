@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5cf537-7e29-4e67-9299-01136dbf0383" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/equifax/RefreshableRelyingPartyRegistrationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/equifax/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/credentials/authproxy-server-key-8.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/credentials/authproxy-server-key.der" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/credentials/authproxy-server-key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/credentials/authproxy-server.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/equifax/AuthProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/equifax/AuthProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/equifax/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/equifax/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/equifax/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/equifax/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/equifax/SecurityConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
